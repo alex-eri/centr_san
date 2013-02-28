@@ -10,11 +10,11 @@ SHOP_PAYMENT_BACKENDS = (
     #'myshop.payment.ExamplePayment',
 )
 
-SHOP_SHIPPING_FLAT_RATE = "10.00"
+SHOP_SHIPPING_FLAT_RATE = "0.00"
 
 SHOP_CART_MODIFIERS = [
-    'shop.cart.modifiers.tax_modifiers.TenPercentGlobalTaxModifier',
-    'shop.cart.modifiers.rebate_modifiers.BulkRebateModifier',
+    # 'shop.cart.modifiers.tax_modifiers.TenPercentGlobalTaxModifier',
+    # 'shop.cart.modifiers.rebate_modifiers.BulkRebateModifier',
     ]
 
 SHOP_PRODUCT_MODEL = 'myshop.models.SimpleProduct'
