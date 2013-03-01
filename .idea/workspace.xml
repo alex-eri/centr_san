@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f67cad-c58e-4764-be69-592dfc005d23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop/cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myshop/templates/myshop/simpleproduct_list.html" afterPath="$PROJECT_DIR$/myshop/templates/myshop/simpleproduct_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.db" afterPath="$PROJECT_DIR$/database.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centr_san/settings.py" afterPath="$PROJECT_DIR$/centr_san/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centr_san/shopsettings.py" afterPath="$PROJECT_DIR$/centr_san/shopsettings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myshop/templates/myshop/simpleproduct_list.html" afterPath="$PROJECT_DIR$/myshop/templates/myshop/simpleproduct_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myshop/templates/myshop/simpleproduct_detail.html" afterPath="$PROJECT_DIR$/myshop/templates/myshop/simpleproduct_detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="centr_san.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a7f67cad-c58e-4764-be69-592dfc005d23" time="1362063834333" ignored="false" />
+    <file path="/Dummy.txt" changelist="a7f67cad-c58e-4764-be69-592dfc005d23" time="1362081030628" ignored="false" />
     <file path="/settings.py" changelist="a7f67cad-c58e-4764-be69-592dfc005d23" time="1362078252772" ignored="false" />
     <file path="/urls.py" changelist="a7f67cad-c58e-4764-be69-592dfc005d23" time="1362065093258" ignored="false" />
     <file path="/shopsettings.py" changelist="a7f67cad-c58e-4764-be69-592dfc005d23" time="1361963774112" ignored="false" />
@@ -132,7 +126,7 @@
       <file leaf-file-name="flat_rate.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../virt/django-cms-shop/lib/python2.7/site-packages/shop/shipping/backends/flat_rate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.056962024">
+            <state line="52" column="58" selection-start="1974" selection-end="1974" vertical-scroll-proportion="0.835443">
               <folding />
             </state>
           </provider>
@@ -1086,13 +1080,19 @@
       <created>1361954492689</created>
       <updated>1361954492689</updated>
     </task>
+    <task id="LOCAL-00001" summary="2 день">
+      <created>1362081072965</created>
+      <updated>1362081072965</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1282" height="998" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980457" sideWeight="0.67218935" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1149,7 +1149,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 день" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1162,6 +1162,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="2 день" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1279,7 +1280,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../virt/django-cms-shop/lib/python2.7/site-packages/shop/shipping/backends/flat_rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.056962024">
+        <state line="52" column="58" selection-start="1974" selection-end="1974" vertical-scroll-proportion="0.835443">
           <folding />
         </state>
       </provider>
